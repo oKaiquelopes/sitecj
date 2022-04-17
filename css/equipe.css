@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&family=Righteous&family=Sarala:wght@400;700&display=swap');
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+ text-decoration: none;   
+}
+header{
+    background-color: #eee;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 2px solid black;
+    font-family: 'Sarala', sans-serif;
+    
+}
+body{
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+    max-width: 1400px;
+}
+.equipe-fotos{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.card{
+    width: 30%;
+    display: inline-block;
+    margin: 1% 1%;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    background-color: #8E5D52;
+    border-radius: 20px 40px;
+    filter: drop-shadow(0 0 1px #000);
+    
+}
+h3{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: white;
+    font-size: 26px;
+    padding-left: 7px;
+    text-align: center;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+}
+.card p{
+    margin-bottom: 10px;
+    font-size: 20px;
+    padding: 15px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+    color: white;
+}
+.foto-img{
+    height: 450px;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    background-position: center;
+    background-size: cover;
+    /*border-radius: 50px;*/
+    /*background-color: wheat;*/
+    
+}
+#img-kaique{
+    background-image: url('img/kaique.png');
+    width: 100%;
+    filter: drop-shadow(0 0 2px #000);
+}
+#img-cris{
+    background-image: url('img/cris.png');
+    width: 100%;
+    filter: drop-shadow(0 0 2px #000);
+}
+#img-priscila{
+    background-image: url('img/priscila.png');
+    width: 100%;
+    filter: drop-shadow(0 0 2px #000);
+}
+#img-daniel{
+    background-image: url('img/daniel.png');
+    width: 100%;
+    filter: drop-shadow(0 0 2px #000);
+}
+#img-sara{
+    background-image: url('img/sara.png');
+    width: 100%;
+    filter: drop-shadow(0 0 2px #000);
+}
+#img-augusto{
+    background-image: url('img/augusto.png');
+    width: 100%;
+    filter: drop-shadow(0 0 2px #000);
+}
+#img-gustavo{
+    background-image: url('img/gustavo.png');
+    width: 100%;
+    filter: drop-shadow(0 0 2px #000);
+}
+.rodape{
+    padding: 32px;
+    border-top: 0.4px solid black;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
